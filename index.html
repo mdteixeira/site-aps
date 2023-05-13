@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../css/.css">
+
+    <!-- Link Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <title></title>
+</head>
+
+<body data-bs-theme="light">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <header id="inicio">
+        <nav class="navbar navbar-expand-lg bg-success fixed-top shadow-sm" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    Nome do site
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#mainTitle">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#saibaMais">Saiba mais</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Artigos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="./razoes-limpa.html">Por que é tão limpa?</a></li>
+                                <li><a class="dropdown-item" href="./razoes-discutir.html">Por que discutir?</a></li>
+                                <li><a class="dropdown-item"
+                                    href="./porque-utilizar.html">Por que utilizar?</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="content">
+        <article class="hero bg-body-tertiary">
+            <article id="mainTitle" class="container" style="padding: 3em 0;">
+                <div class="row align-items-center">
+                    <section class="col"> <!-- Texto principal -->
+                        <h1 class="text-center my-4">Combustão de Hidrogênio</h1>
+                        <p class="lead">Combustão de hidrogênio é uma forma <strong>mais eficiente e mais limpa de
+                                combustão</strong>, testada e aprovada por diversas marcas de automotivos no mundo</p>
+                        <section id="botoes" class="my-5">
+                            <a class="btn btn-lg btn-outline-success shadow-sm" href="#saibaMais">Saiba mais</a>
+                        </section>
+                    </section>
+                    <section class="col"> <!-- Imagem principal -->
+                        <img src="./sustentabilidade.png" alt="" class="img-fluid" ;>
+                    </section>
+                </div> <!-- fim da Row -->
+
+            </article>
+        </article>
+
+        <br id="saibaMais">
+        <h1 class="text-center py-4">Saiba mais</h1>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title pb-4">🌱 Mas por que a combustão de hidrogênio é tão limpa?</h5>
+                            <a href="./razoes-limpa.html" class="btn btn-success">Conferir</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title pb-4">🌿 Por que precisamos discutir sobre sustentabilidade?</h5>
+                            <a href="./razoes-discutir.html" class="btn btn-success">Conferir</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title pb-4">Por que utilizar hidrogênio como fonte de energia?</h5>
+                            <a href="./porque-utilizar.html" class="btn btn-success">Conferir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <footer class="text-center mt-5">
+            <hr>
+            <section id="copy" class="p-3">
+                <small>® Feito por Matheus Diego Teixeira</small>
+            </section>
+            </article>
+    
+        </footer>
+    
+    </body>
+    </main>
+</body>
