@@ -1,125 +1,203 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <!-- Link Bootstrap 5 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous"
+        />
 
-    <!-- Link Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <title>Por que discutir sustentabilidade?</title>
+    </head>
 
-    <title>Por que discutir sustentabilidade?</title>
-</head>
+    <body data-bs-theme="light">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"
+        ></script>
 
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-
-    <header id="inicio">
-        <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-sm">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="logo.png" alt="logo" height="75px">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#saibaMais">Saiba mais</a>
-                        </li>
-                        <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Artigos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./razoes-limpa.html">Por que é tão limpa?</a></li>
-                                <li><a class="dropdown-item text-white bg-success" aria-current="page"
-                                        href="./razoes-discutir.html">Por que discutir?</a></li>
-                                <li><a class="dropdown-item" href="./porque-utilizar.html">Por que utilizar?</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+        <header id="inicio">
+            <nav
+                class="navbar navbar-expand-lg bg-body-secondary fixed-top shadow-sm"
+            >
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="logo.png" alt="logo" height="75px" />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html"
+                                    >Início</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#saibaMais"
+                                    >Saiba mais</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown active">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Artigos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="./razoes-limpa.html"
+                                            >Por que é tão limpa?</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item text-white bg-success"
+                                            aria-current="page"
+                                            href="./razoes-discutir.html"
+                                            >Por que discutir?</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="./porque-utilizar.html"
+                                            >Por que utilizar?</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </nav>
+        </header>
+
+        <nav
+            style="--bs-breadcrumb-divider: '>'; margin: 130px 50px 50px 50px"
+            aria-label="breadcrumb"
+        >
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="./index.html">Página Inicial</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Por que sustentabilidade é tão importante?
+                </li>
+            </ol>
         </nav>
-    </header>
 
-    <nav style="--bs-breadcrumb-divider: '>'; margin: 130px 50px 50px 50px;" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="./index.html">Página Inicial</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Por que sustentabilidade é tão importante?</li>
-        </ol>
-    </nav>
-
-    <article id="item1" class="container">
-        <div class="row align-items-center row-cols-1 row-cols-lg-2 g-4 m-3">
-            <div class="col">
-                <h2 class="mb-5">🌱 A importância da sustentabilidade</h2>
-                <p class="col fs-4">A busca por fontes de energia sustentáveis é uma das principais questões da
-                    atualidade, pois a utilização de fontes de energia poluentes e não-renováveis tem impactos
-                    ambientais significativos. A sustentabilidade é importante porque visa garantir que as gerações
-                    futuras tenham acesso aos recursos naturais necessários para a sua sobrevivência e bem-estar. Além
-                    disso, a utilização de fontes de energia sustentáveis pode trazer benefícios econômicos e sociais,
-                    como a geração de empregos e a redução da dependência de fontes de energia importadas.<small
-                        class="text-secondary fs-6">Fonte Fonte</small></p>
-            </div>
-            <img src="sust3.png" alt="" class="img-fluid col">
-        </div>
-    </article>
-
-    <br id="saibaMais">
-    <hr>
-    <h1 class="text-center py-4">Saiba mais</h1>
-    <div class="container text-center">
-        <div class="row row-cols-1 row-cols-md-3 g-4 m-3">
-            <div class="col">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title pb-4">🌱 Mas por que a combustão de hidrogênio é tão limpa?</h5>
-                        <a href="./razoes-limpa.html" class="btn btn-success">Conferir</a>
-                    </div>
+        <article id="item1" class="container">
+            <div
+                class="row align-items-center row-cols-1 row-cols-lg-2 g-4 m-3"
+            >
+                <div class="col">
+                    <h2 class="mb-5">🌱 A importância da sustentabilidade</h2>
+                    <p class="col fs-4">
+                        A busca por fontes de energia sustentáveis é uma das
+                        principais questões da atualidade, pois a utilização de
+                        fontes de energia poluentes e não-renováveis tem
+                        impactos ambientais significativos. A sustentabilidade é
+                        importante porque visa garantir que as gerações futuras
+                        tenham acesso aos recursos naturais necessários para a
+                        sua sobrevivência e bem-estar. Além disso, a utilização
+                        de fontes de energia sustentáveis pode trazer benefícios
+                        econômicos e sociais, como a geração de empregos e a
+                        redução da dependência de fontes de energia
+                        importadas.<small class="text-secondary fs-6"
+                            >Fonte Fonte</small
+                        >
+                    </p>
                 </div>
+                <img src="sust3.png" alt="" class="img-fluid col" />
             </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title pb-4">🌿 Por que precisamos discutir sobre sustentabilidade?</h5>
-                        <a href="./razoes-discutir.html" class="btn btn-success disabled">Você está aqui</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title pb-4">Por que utilizar hidrogênio como fonte de energia?</h5>
-                        <a href="./porque-utilizar.html" class="btn btn-success">Conferir</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <footer class="text-center mt-5">
-        <hr>
-        <a class="btn btn-success p-2 shadow-sm" href="./index.html">Voltar para a página inicial</a>
-        <section id="copy" class="p-3">
-            <small>® Feito por Matheus Diego Teixeira</small>
-        </section>
         </article>
 
-    </footer>
+        <br id="saibaMais" />
+        <hr />
+        <h1 class="text-center py-4">Saiba mais</h1>
+        <div class="container text-center">
+            <div class="row row-cols-1 row-cols-md-3 g-4 m-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title pb-4">
+                                🌱 Mas por que a combustão de hidrogênio é tão
+                                limpa?
+                            </h5>
+                            <a
+                                href="./razoes-limpa.html"
+                                class="btn btn-success"
+                                >Conferir</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title pb-4">
+                                🌿 Por que precisamos discutir sobre
+                                sustentabilidade?
+                            </h5>
+                            <a
+                                href="./razoes-discutir.html"
+                                class="btn btn-success disabled"
+                                >Você está aqui</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title pb-4">
+                                Por que utilizar hidrogênio como fonte de
+                                energia?
+                            </h5>
+                            <a
+                                href="./porque-utilizar.html"
+                                class="btn btn-success"
+                                >Conferir</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-</body>
+        <footer class="text-center mt-5">
+            <hr />
+            <a class="btn btn-success p-2 shadow-sm" href="./index.html"
+                >Voltar para a página inicial</a
+            >
+            <section id="copy" class="p-3">
+                <small>® Feito por Matheus Diego Teixeira</small>
+            </section>
+        </footer>
+    </body>
+</html>
