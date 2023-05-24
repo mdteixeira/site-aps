@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
@@ -15,7 +15,7 @@
             crossorigin="anonymous"
         />
 
-        <title>Por que é tão limpa?</title>
+        <title>Vantagens e desvantagens</title>
     </head>
 
     <body data-bs-theme="light">
@@ -69,8 +69,7 @@
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a
-                                            class="dropdown-item text-white bg-success"
-                                            aria-current="page"
+                                            class="dropdown-item"
                                             href="./razoes-limpa.html"
                                             >Por que é tão limpa?</a
                                         >
@@ -91,7 +90,8 @@
                                     </li>
                                     <li>
                                         <a
-                                            class="dropdown-item"
+                                            class="dropdown-item text-white bg-success"
+                                            aria-current="page"
                                             href="./vantagens-desvantagens.html"
                                             >Vantagens e desvantagens</a
                                         >
@@ -113,31 +113,36 @@
                     <a href="./index.html">Página Inicial</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                    Por que é tão limpa?
+                    Vantagens e desvantagens
                 </li>
             </ol>
         </nav>
 
         <article id="item1" class="container">
-            <div
-                class="row align-items-center row-cols-1 row-cols-lg-2 g-4 m-3"
-            >
-                <div class="col">
-                    <h2>
-                        🌱 Mas por que a combustão de hidrogênio é tão limpa?
-                    </h2>
-                    <p class="fs-4">
-                        O hidrogênio é considerado uma fonte de energia limpa e
-                        promissora pois
-                        <strong>a sua combustão resulta somente em água</strong
-                        >, ao invés do monóxido e dióxido de carbono, gases
-                        emitidos pela queima do petróleo e um dos responsáveis
-                        pelo efeito estufa.
-                    </p>
-                    <br />
-                </div>
-                <img src="hidrogenio.png" alt="" class="img-fluid col" />
-            </div>
+            <h2 class="mb-4">Vantagens e desvantagens do Hidrogênio como fonte de energia</h2>
+            <table class="table">
+                <thead>
+                  <tr class="text-center">
+                    <th class="bg-success-subtle" scope="col">Vantagens</th>
+                    <th class="bg-danger-subtle" scope="col">Desvantagens</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>É um combustível limpo</td>
+                    <td>É um gás difícil de manusear</td>
+                  </tr>
+                  <tr>
+                    <td>Usa tecnologia mais eficiente</td>
+                    <td>É menos vantajoso do que a energia elétrica para carros</td>
+                  </tr>
+                  <tr>
+                    <td>É conveniente para transporte pesado e trens</td>
+                    <td>Se for "cinza", polui</td>
+                  </tr>
+                </tbody>
+              </table>
+
         </article>
 
         <br id="saibaMais" />
@@ -154,8 +159,8 @@
                             </h5>
                             <a
                                 href="./razoes-limpa.html"
-                                class="btn btn-success disabled"
-                                >Você está aqui</a
+                                class="btn btn-success"
+                                >Conferir</a
                             >
                         </div>
                     </div>
@@ -198,15 +203,14 @@
                             </h5>
                             <a
                                 href="./vantagens-desvantagens.html"
-                                class="btn btn-success"
-                                >Conferir</a
+                                class="btn btn-success disabled"
+                                >Você está aqui</a
                             >
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <footer class="text-center mt-5">
             <hr />
             <a class="btn btn-success p-2 shadow-sm" href="./index.html"
